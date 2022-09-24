@@ -13,8 +13,7 @@ header,footer{
     width: 99%;
     
 }
-/* body{padding: 4rem;
-margin: 4rem;} */
+body{padding: 4rem;}
 main, footer{font-family: sans-serif;
 }
 
