@@ -6,17 +6,21 @@ header,footer{
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
+    justify-content: center;
     background-color: rgba(184, 135, 11, 0.754);
     padding: 2em;
     margin: 1rem;
+    width: 99%;
+    
 }
-
+/* body{padding: 4rem;
+margin: 4rem;} */
 main, footer{font-family: sans-serif;
 }
 
 main{
     padding: 1em;
-    margin: 0 auto;
+    margin:  1rem;
     display: grid;
     grid-template-columns: 1fr;
     font-size: 1rem;
@@ -45,7 +49,4 @@ section{
 body{padding: 1em;}
 p{padding: 1em;
 font-family: sans-serif;}
-footer{
-    justify-content: center;
-}
 
