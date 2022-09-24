@@ -1,5 +1,12 @@
 @media only screen and (min-width: 65em){
-header{background-color: aqua;}
 
-    /* end of 65em */
+main{
+grid-template-columns: repeat(3, 1fr);  
 }
+
+main section:nth-child(3){
+grid-column: span 1;
+}
+
+}
+    /* end of 65em */

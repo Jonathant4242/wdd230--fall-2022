@@ -1,22 +1,29 @@
 
 header,footer{
     border-radius: 25px ;
-    box-shadow: 5px 8px 2px 10px grey;
+    box-shadow: 5px 8px 2px 10px rgba(0, 0, 0, 0.752);
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
-    background-color: darkgoldenrod;
-    padding: 1em;
+    justify-content: center;
+    background-color: rgba(184, 135, 11, 0.754);
+    padding: 2em;
+    margin: 1rem;
+    width: 99%;
+    
 }
-#portrait{
-    border: 9px dotted grey;
-    background-color: black;
-    padding: 1em;
-    margin: .5em;
-}
+/* body{padding: 4rem;
+margin: 4rem;} */
 main, footer{font-family: sans-serif;
+}
 
+main{
+    padding: 1em;
+    margin:  1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1rem;
 }
 h1, h2{font-family: 'Josefin Sans', sans-serif;}
 
@@ -26,9 +33,20 @@ h2{
     padding-top: 1em;
     ;
 }
-body{padding: 1em;}
 
-footer{
-    justify-content: center;
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 25px ;
+    background-color: rgba(184, 135, 11, 0.404);
+    box-shadow: 5px 8px 2px 10px rgba(0, 0, 0, 0.765);
+    margin: 1rem;
+    margin-bottom: 2rem;
 }
+body{padding: 1em;}
+p{padding: 1em;
+font-family: sans-serif;}
 
