@@ -8,6 +8,11 @@ header,footer{
     flex-direction: row;
     background-color: darkgoldenrod;
     padding: 1em;
+    margin: 1em;
+}
+
+figure image{
+ width: 100%;       
 }
 #portrait{
     border: 9px dotted grey;

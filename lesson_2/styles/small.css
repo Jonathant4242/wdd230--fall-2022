@@ -20,10 +20,15 @@ header,footer{
     background-color: rgba(184, 135, 11, 0.754);
     padding: 2em;
     margin: 1rem;
-    width: 99%;
     
 }
 body{padding: 4rem;}
+
+.sample{
+    width: 100%;
+        
+}
+
 main, footer{font-family: sans-serif;
 }
 
@@ -34,13 +39,16 @@ main{
     grid-template-columns: 1fr;
     font-size: 1rem;
 }
-h1, h2{font-family: 'Josefin Sans', sans-serif;}
+h1, h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
 
-h1{padding: 1em;}
+h1{
+    padding: 1em;
+}
 
 h2{
     padding-top: 1em;
-    ;
 }
 
 section{
@@ -56,6 +64,7 @@ section{
     margin-bottom: 2rem;
 }
 body{padding: 1em;}
+
 p{padding: 1em;
 font-family: sans-serif;}
 
