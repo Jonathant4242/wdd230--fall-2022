@@ -1,4 +1,14 @@
 
+body{
+    display: grid;
+    font-size: 16px;
+}
+header,footer,main{
+    display: block;
+    max-width: 30em;
+    margin: 0 auto;
+}
+
 header,footer{
     border-radius: 25px ;
     box-shadow: 5px 8px 2px 10px rgba(0, 0, 0, 0.752);

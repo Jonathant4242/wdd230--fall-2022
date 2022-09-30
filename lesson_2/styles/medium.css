@@ -1,4 +1,10 @@
 @media (min-width: 32.5em){
+    header,footer,main{
+        max-width: 50em;}
+    figure image{
+        max-width: auto;
+        
+    }
 
     main{grid-template-columns: 1fr, 1fr;
     column-gap: 3em;}
