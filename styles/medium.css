@@ -1,5 +1,5 @@
 @media (min-width: 32.5em){
-
+    header,footer{flex-direction: row;}
     header{background-color: chartreuse;}
 
 

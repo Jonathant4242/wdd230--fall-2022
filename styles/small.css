@@ -1,20 +1,25 @@
 
+html, body {
+    height: 100%;
+}
+html, body {
+    height: 100%;
+}
+
 header,footer{
     border-radius: 25px ;
     box-shadow: 5px 8px 2px 10px grey;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     background-color: darkgoldenrod;
     padding: 1em;
     margin: 1em;
 }
 
-figure image{
- width: 100%;       
-}
 #portrait{
+    width: ;
     border: 9px dotted grey;
     background-color: black;
     padding: 1em;
