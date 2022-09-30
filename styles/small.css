@@ -19,7 +19,8 @@ header,footer{
 }
 
 #portrait{
-    width: ;
+    width: 100%;
+    max-width: fit-content;
     border: 9px dotted grey;
     background-color: black;
     padding: 1em;
