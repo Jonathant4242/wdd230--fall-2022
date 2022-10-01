@@ -73,6 +73,7 @@ section{
 }
 body{padding: 1em;}
 
-p{padding: 1em;
+p{
+padding: 1em;
 font-family: sans-serif;}
 
