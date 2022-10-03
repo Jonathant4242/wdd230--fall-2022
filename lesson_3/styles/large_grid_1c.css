@@ -1,0 +1,10 @@
+@media only screen and (min-width: 65em){
+
+main{
+    grid-template-columns: repeat(1, 1fr);  
+}
+
+
+
+}
+    /* end of 65em */

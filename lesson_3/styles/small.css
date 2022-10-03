@@ -92,3 +92,12 @@ p{
 padding: 1em;
 font-family: sans-serif;}
 
+
+/* Fonts */
+.Gemunu_Libre{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: 700;
+}
+.f16px{
+    font-size: 30px;
+}
