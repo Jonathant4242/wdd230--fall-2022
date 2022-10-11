@@ -1,0 +1,29 @@
+@media only screen and (min-width: 64rem){
+    header h1,{
+        font-size: xx-large;
+    }
+    header h4{
+        font-size: arge;
+    }
+    header nav button {display: none;}
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        border-left: 1px solid rgba(0,0,0,0.3);
+        /* margin-left: 2vw; */
+    }
+    
+    header nav ul li a{
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+    
+    }
+    
+
+    /* basic nav large */
+    header nav ul li a {
+        /* padding: .5rem 1rem; */
+        font-size: x-large;
+    }
+}
