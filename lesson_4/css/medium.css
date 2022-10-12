@@ -1,7 +1,30 @@
 @media only screen and (min-width: 35rem) {
 
+    header{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    header section{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    }
+    header div.date{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    }
 
-    /* basic nav button Medium */
 
+    /* main */
+    main{
+        grid-template-columns: 1fr 1fr;}
+    main section{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    main section:nth-child(3){
+        flex-direction: row;
 
-}/* end of media query */
+    }
+    }
+/* end of media query */

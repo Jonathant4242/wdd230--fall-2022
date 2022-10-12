@@ -36,8 +36,10 @@
             <h1>Lumionsity Chamber of Commerce</h1>
             <h4>The city of light that shines out of darkness</h4>
         </section>
+        <!-- clock -->
+        <div class="date"></div>
         <!-- NAVIGATION HERE -->
-        <nav>
+        <aside><nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
             <li><a href="#">Home</a></li>
@@ -46,18 +48,18 @@
             <li><a href="#">Contact</a></li>    
         </ul>
         </nav>
+    </aside>
     </header>
     
 <!-- CONTENT HERE -->
     <main>
-       <section>
+       <section>  <!-- CHILD 1 -->
         <h3>Event</h3>
        </section>
-       <section>
+       <section> <!-- CHILD 2 -->
         <h3>Hero / Call to Action</h3>
        </section>
-       <section>
-        <h3>Spotlight</h3>
+       <section> <!-- CHILD 3 -->
         <figure>
             <h4>Spotlight 1</h4>
         </figure>
@@ -68,13 +70,13 @@
             <h4>Spotlight 3</h4>
         </figure>
        </section>
-       <section>
+       <section> <!-- CHILD 4 -->
         <h3>Weather</h3>
        </section>
-       <section>
+       <section> <!-- CHILD 5 -->
         <h3>Join</h3>
        </section>
-       <section>
+       <section> <!-- CHILD 6 -->
         <h3>New Release</h3>
        </section>
 
@@ -84,8 +86,18 @@
     <footer>
 
     </footer>
+    <hr>
+    <footer>
+        
+        <aside>
+        &copy; 
+        <span id="currentdate"></span>
+        *~|~* Jonathan Trok *~|~* California *~|~* Modified:  <span id="modified"></span>
+        </aside>
+    </footer>
     
 <script src="js/hamberBtn.js"></script>
 <script src="js/currentDate.js"></script>
+<script src="js/headerDate.js"></script>
 </body>
 </html>
