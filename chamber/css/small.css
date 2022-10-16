@@ -18,12 +18,7 @@ header, footer{
    /* justify-content: center; */
    justify-items: center;
 }
-footer{
-   padding: .3rem;
-   align-content: center;
-   box-shadow: 50px 80px 20px 60px rgba(247,227,50,.65);
-   justify-content: center;
-}
+
 
 header img{
    width: 200px;
@@ -113,3 +108,44 @@ main section:nth-child(3) figure:nth-child(3){
 main section:nth-child(5){
    display: none;
 }
+
+/* footer */
+
+footer{
+   padding: 1rem;
+   align-content: center;
+   box-shadow: 50px 80px 20px 60px rgba(247,227,50,.65);
+   justify-content: center;
+}
+footer div a{
+padding: .5rem;
+align-content: center;
+}
+
+footer div{
+   display: flex;
+   align-items: center;
+}
+footer img{
+   height: 100px;
+}
+
+
+footer a:link {
+   color: #FFFFFF
+ }
+ 
+ /* visited link */
+ footer a:visited {
+   color: green;
+ }
+ 
+ /* mouse over link */
+ footer a:hover {
+   color: #EEDC31;
+ }
+ 
+ /* selected link */
+ footer a:active {
+   color: #F0E6CF;
+ }
