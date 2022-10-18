@@ -2,6 +2,7 @@
 
     header{
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        
     }
     header section{
     grid-column-start: 2;
@@ -17,16 +18,50 @@
 
     /* main */
     main{
-        grid-template-columns: 1fr 1fr;}
+        grid-template-columns: 1fr 2fr 1fr;
+        grid}
+
     main section{
         grid-column-start: 1;
         grid-column-end: 3;
     }
+/* Hero / call to action */
+    main section:nth-child(2){
+        flex-direction: row;
+        /* background-color: aqua; */
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+    }
+/* spot light */
     main section:nth-child(3){
         flex-direction: row;
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+        /* background-color: aqua; */
+    }
+/* weather */
+    main section:nth-child(4){
+        /* display: none; */
+        grid-column: 3 / 4;
+        /* background-color: aqua; */
+    }
 
+
+/* Join */
+    main section:nth-child(5){
+        grid-column: 1 / 4;
+        grid-row: 4 / 5;
+        display: flex;
+        /* background-color: aqua; */
     }
+    
+    main section:nth-child(6){
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
     }
+    /* main section:nth-child(){} */
+
+    
     footer{
         grid-template-columns: 100px 1fr 1fr;
     }
@@ -38,7 +73,8 @@
         padding: .8rem;
 
     }
-    footer div:nth-child(4){
-        background-color: aqua;
+    footer div:nth-child(5){
+
+        grid-column: 1 / 4;
     }
 /* end of media query */
