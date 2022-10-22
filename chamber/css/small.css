@@ -94,6 +94,8 @@ main{
    grid-template-columns: 1fr;
    margin: 1em;
    justify-content: center;
+   column-gap: 13px;
+   row-gap: 13px;
 }
 main section{
    
