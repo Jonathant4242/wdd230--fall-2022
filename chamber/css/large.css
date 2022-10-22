@@ -49,6 +49,21 @@
         grid-column: 2 / span 2;
         grid-row: 1 / span 2;
     }
+    main section:nth-child(2) h4{
+        position: absolute;
+         top: 20px;
+         left: 10px;
+         padding: 1rem;
+        font-size: 22px;
+     }
+     
+     main section:nth-child(2) h5{
+        position: absolute;
+         bottom: 10px;
+         right: 25px;
+         padding: .8rem;
+        font-size: 19px;}
+
 /* spot light */
     main section:nth-child(3){
         flex-direction: column;
