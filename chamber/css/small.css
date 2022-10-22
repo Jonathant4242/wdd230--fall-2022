@@ -109,6 +109,10 @@ main section:nth-child(5){
    display: none;
 }
 
+/* main */
+main section img{
+   width: 100%;
+}
 /* footer */
 
 footer{
