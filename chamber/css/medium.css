@@ -19,7 +19,7 @@
     /* main */
     main{
         grid-template-columns: 1fr 2fr 1fr;
-        grid}
+    }
 
     main section{
         grid-column-start: 1;
@@ -93,7 +93,7 @@
 
     }
     footer div:nth-child(5){
-
         grid-column: 1 / 4;
     }
+}
 /* end of media query */
