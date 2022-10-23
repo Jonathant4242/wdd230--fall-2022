@@ -19,6 +19,109 @@
         border-right: 1px solid rgba(0,0,0,0.3);
     
     }
+
+     /* main */
+     main{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        padding-left: 25px;
+        padding-right: 25px;}
+
+    main section{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    /* Event */
+    main section:nth-child(1){
+        flex-direction: column;
+        /* background-color: aqua; */
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;
+        /* background-color: aqua; */
+
+    }
+
+
+/* Hero / call to action */
+    main section:nth-child(2){
+        flex-direction: row;
+        /* background-color: aqua; */
+        grid-column: 2 / span 2;
+        grid-row: 1 / span 2;
+    }
+    main section:nth-child(2) h4{
+        position: absolute;
+         top: 30px;
+         left: 10px;
+         padding: 1rem;
+        font-size: 22px;
+     }
+     
+     main section:nth-child(2) h5{
+        position: absolute;
+         bottom: 10px;
+         right: 25px;
+         padding: .8rem;
+        font-size: 19px;}
+
+main section:nth-child(2) img{
+    width: 100%;
+    height: auto;
+}
+/* spot light */
+    main section:nth-child(3){
+        flex-direction: column;
+        grid-column: 4 / 5;
+        grid-row: 1 / span 4;
+        /* background-color: aqua; */
+    }
+    main section:nth-child(3) figure:nth-child(3){
+        display: flex;
+        flex-direction: column;
+     }
+
+/* weather */
+    main section:nth-child(4){
+        /* display: none; */
+        grid-column: 1 / 2;
+        grid-row: 3 / 5:
+        background-color: aqua;
+    }
+
+
+/* Join */
+    main section:nth-child(5){
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        display: flex;
+        /* background-color: aqua; */
+    }
+/* new release */
+    main section:nth-child(6){
+        grid-column: 2 / span 2;
+        grid-row: 3 / 4;
+        /* background-color: aqua; */
+    }
+    /* main section:nth-child(){} */
+
+    
+    footer{
+        grid-template-columns: 100px 1fr 1fr;
+    }
+    footer div{
+        flex-direction: column;
+        padding: .8rem;
+    }
+    footer address {
+        padding: .8rem;
+
+    }
+    footer div:nth-child(5){
+
+        grid-column: 1 / 4;
+    }
+
+
     
 
     /* basic nav large */
@@ -27,3 +130,4 @@
         font-size: x-large;
     }
 }
+/* end of media query */
